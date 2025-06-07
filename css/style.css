@@ -119,6 +119,10 @@ body {
   gap: var(--spacing-200);
 }
 
+.card__footer img {
+  width: 32px;
+}
+
 .attribution {
   font-size: 0.75em;
   text-align: center;
