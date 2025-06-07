@@ -29,7 +29,7 @@
 }
 
 @property --text-size {
-  syntax: "<lenght>";
+  syntax: "<length>";
   inherits: false;
   initial-value: 1rem;
 }
