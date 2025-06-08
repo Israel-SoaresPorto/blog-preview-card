@@ -42,7 +42,6 @@
 
 body {
   --text-size: 0.875rem;
-
   background-color: var(--yellow);
   font-family: "Figtree", sans-serif;
   font-size: var(--text-size);
@@ -55,9 +54,11 @@ body {
 }
 
 .container {
+  width: 100%;
+  padding-block: 1rem;
+  display: flex;
+  justify-content: center;
   flex: 1;
-  place-items: center;
-  place-content: center;
 }
 
 .card {
@@ -98,7 +99,6 @@ body {
 
 .card__content h1 {
   --text-size: 1.5rem;
-
   font-size: var(--text-size);
   font-weight: 700;
   cursor: pointer;
